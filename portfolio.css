@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html {
+    background-color: rgb(250, 241, 188);
+}
+
+header {
+    padding: 20px 0 40px 0;
+    background-color: rgba(10, 10, 10, 0.979);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+    .content li {
+      float: left;
+      margin-right: 50px;
+    }
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.top-wrapper {
+    padding: 180px 0 200px 0;
+    background-image: url(backphoto.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+
+
+.profile {
+    float: left;
+    border: 2px solid black;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+    center {
+        border-bottom: 2px solid;
+        padding: 10px;
+        font-size: 30px;
+        background-color: yellow;
+    }
+    .profile-farst {
+        font-family: serif;
+        padding-left: 20px;
+    }
+        .photo {
+            width: 100px;
+        }
+    .profile-second {
+        font-family: serif;
+        padding-left: 20px;
+    }
+    
+
+.history {
+    border: 2px solid black;
+    width: 30%;
+    float:left;
+}
+    .history h2 {
+        padding-left: 20px;
+    }
+        .school,.work {
+            padding: 0 0 0 30px;
+        }
+
+
+
+.skill {
+    border: 2px solid black;
+    width: 50%;
+    float:left;
+}
+    .skill-detail {
+        margin: 20px;
+        float:left;
+        font-size: 20px;
+    }
+
+.profile,.history,.skill {
+    float: left;
+    width: 30%;
+    margin: 100px 20px 100px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.motivation,.PR,.last {
+    margin-bottom: 100px;
+    border: 2px solid black;
+    width: (100%-50px);
+    background-color: rgb(255, 255, 255);
+    float:left;
+}
